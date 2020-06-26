@@ -26,12 +26,3 @@ xlabel('Radius (mm)');
 ylabel('Dose (Gy)');
 
 [N,Xedges,Yedges] = histcounts2(radii,doses);
-
-% histogram2(radii, doses,'FaceColor','auto');%,'DisplayStyle','tile')
-% title(['Tumour ' num2str(id) ' Histogram of Dose vs Radius']);
-% xlabel('Radius (mm)');
-% ylabel('Dose (Gy)');
-% z = 'Number of Voxels';
-% zlabel(z);
-% c = colorbar;
-% c.Label.String = z;
